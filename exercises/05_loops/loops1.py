@@ -8,7 +8,6 @@
 #
 # Hint: for pet in pets: then print(pet) inside the loop
 
-# I AM NOT DONE
 
 def main():
     pets = ["Whiskers", "Buddy", "Goldie", "Tweety"]

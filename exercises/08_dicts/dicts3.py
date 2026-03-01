@@ -8,7 +8,6 @@
 #
 # Hint: for subject, grade in grades.items(): then print them!
 
-# I AM NOT DONE
 
 def main():
     grades = {

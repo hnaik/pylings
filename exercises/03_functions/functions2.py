@@ -9,7 +9,6 @@
 #
 # Hint: def greet(name): then use the name in your print
 
-# I AM NOT DONE
 
 def greet(???):
     print(???)

@@ -9,7 +9,6 @@
 #
 # Hint: def function_name(): then indent the code inside
 
-# I AM NOT DONE
 
 # Define your function here:
 ???

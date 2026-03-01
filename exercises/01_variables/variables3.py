@@ -8,7 +8,6 @@
 #
 # Hint: After the first print, assign a new value to score.
 
-# I AM NOT DONE
 
 def main():
     score = 50

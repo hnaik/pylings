@@ -11,7 +11,6 @@
 #
 # Hint: Use type() and compare with int, str, float, or bool.
 
-# I AM NOT DONE
 
 def main():
     my_number = 100

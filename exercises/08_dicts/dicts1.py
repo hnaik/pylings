@@ -10,7 +10,6 @@
 #
 # Hint: Use the key name in square brackets to get the value.
 
-# I AM NOT DONE
 
 def main():
     player = {

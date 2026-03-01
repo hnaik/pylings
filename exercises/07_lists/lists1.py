@@ -10,7 +10,6 @@
 #
 # Hint: songs[0] gets the first song, songs[2] gets the third.
 
-# I AM NOT DONE
 
 def main():
     songs = ["Shake It Off", "Blinding Lights", "Stay", "Shape of You"]

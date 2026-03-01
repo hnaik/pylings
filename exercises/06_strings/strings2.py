@@ -11,7 +11,6 @@
 #
 # Hint: f"My name is {name} and I am {age} years old."
 
-# I AM NOT DONE
 
 def main():
     name = "Jordan"

@@ -6,7 +6,6 @@
 #
 # Hint: Replace ??? with the number 13 (no quotes needed for numbers!)
 
-# I AM NOT DONE
 
 def main():
     name = "Alex"

@@ -7,7 +7,6 @@
 #
 # Hint: fruits.append("Mango")
 
-# I AM NOT DONE
 
 def main():
     fruits = ["Apple", "Banana", "Cherry"]

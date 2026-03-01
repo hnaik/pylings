@@ -8,7 +8,6 @@
 #
 # Hint: while countdown > 0: then subtract 1 each time
 
-# I AM NOT DONE
 
 def main():
     countdown = 5

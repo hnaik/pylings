@@ -9,7 +9,6 @@
 #
 # Hint: use if ... else ...
 
-# I AM NOT DONE
 
 def check_score(score):
     ???

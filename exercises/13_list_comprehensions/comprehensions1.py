@@ -8,7 +8,6 @@
 #
 # Hint: [n * 2 for n in numbers] creates a list of doubled numbers
 
-# I AM NOT DONE
 
 def main():
     numbers = [1, 2, 3, 4, 5]

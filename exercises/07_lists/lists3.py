@@ -8,7 +8,6 @@
 #
 # Hint: for item in my_list: does the trick!
 
-# I AM NOT DONE
 
 def main():
     todo_list = ["Buy milk", "Do homework", "Walk the dog", "Read a book"]

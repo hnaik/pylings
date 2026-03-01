@@ -12,7 +12,6 @@
 #         self.name = name
 #         self.animal_type = animal_type
 
-# I AM NOT DONE
 
 class Pet:
     def __init__(self, ???):

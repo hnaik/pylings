@@ -10,7 +10,6 @@
 #
 # Hint: Use int(), float(), or str() to convert the values.
 
-# I AM NOT DONE
 
 def main():
     number_text = "42"

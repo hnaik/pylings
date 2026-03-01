@@ -6,7 +6,6 @@
 #
 # Hint: Replace ??? with the text "Hello, Python!" (include the quotes!)
 
-# I AM NOT DONE
 
 def main():
     greeting = ???

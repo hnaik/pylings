@@ -9,7 +9,6 @@
 #
 # Hint: Use set() to convert a list to a set, which removes duplicates.
 
-# I AM NOT DONE
 
 def main():
     visitors = ["Alice", "Bob", "Alice", "Charlie", "Bob", "Alice"]

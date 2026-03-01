@@ -13,7 +13,6 @@
 #
 # Hint: if score >= 90: ... elif score >= 80: ... and so on
 
-# I AM NOT DONE
 
 def get_grade(score):
     ???

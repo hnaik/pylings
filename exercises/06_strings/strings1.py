@@ -12,7 +12,6 @@
 #
 # Hint: Python starts counting at 0, not 1!
 
-# I AM NOT DONE
 
 def main():
     word = "Python"

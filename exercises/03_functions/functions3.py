@@ -8,7 +8,6 @@
 #
 # Hint: return a + b
 
-# I AM NOT DONE
 
 def add(a, b):
     ???

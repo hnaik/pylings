@@ -9,7 +9,6 @@
 #
 # Hint: coordinates = (latitude, longitude) - use parentheses!
 
-# I AM NOT DONE
 
 def main():
     # A GPS coordinate - latitude and longitude

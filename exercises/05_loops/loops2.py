@@ -8,7 +8,6 @@
 #
 # Hint: range(1, 6) gives you 1, 2, 3, 4, 5
 
-# I AM NOT DONE
 
 def main():
     print("Counting from 1 to 5:")

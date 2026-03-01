@@ -10,7 +10,6 @@
 # random.randint(1, 6) picks a random number from 1 to 6
 # random.choice(my_list) picks a random item from a list
 
-# I AM NOT DONE
 
 ???  # Import the random module
 

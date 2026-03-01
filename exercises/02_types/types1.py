@@ -11,7 +11,6 @@
 #
 # Hint: Replace ??? with the right values. age should be a whole number.
 
-# I AM NOT DONE
 
 def main():
     age = ???

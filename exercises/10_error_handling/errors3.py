@@ -8,7 +8,6 @@
 #
 # Hint: raise ValueError("Age cannot be negative!")
 
-# I AM NOT DONE
 
 def validate_age(age):
     if age < 0:

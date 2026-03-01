@@ -13,7 +13,6 @@
 # except ZeroDivisionError:
 #     print("handle the error here")
 
-# I AM NOT DONE
 
 def safe_divide(a, b):
     ???

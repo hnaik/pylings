@@ -12,7 +12,6 @@
 # except ValueError:
 #     return None
 
-# I AM NOT DONE
 
 def safe_int(text):
     ???

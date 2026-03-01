@@ -11,7 +11,6 @@
 #
 # Hint: call the method on the string like: my_string.upper()
 
-# I AM NOT DONE
 
 def main():
     greeting = "hello, world!"

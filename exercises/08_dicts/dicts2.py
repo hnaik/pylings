@@ -8,7 +8,6 @@
 #
 # Hint: contact["email"] = "alex@example.com"
 
-# I AM NOT DONE
 
 def main():
     contact = {

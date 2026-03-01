@@ -9,7 +9,6 @@
 #
 # Hint: import math   then use math.sqrt(), math.pi, math.floor()
 
-# I AM NOT DONE
 
 ???  # Import the math module
 

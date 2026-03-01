@@ -8,7 +8,6 @@
 #
 # Hint: self.score += points to add points
 
-# I AM NOT DONE
 
 class Player:
     def __init__(self, name):

@@ -9,7 +9,6 @@
 #
 # Hint: if height >= 120: then indent the print below it.
 
-# I AM NOT DONE
 
 def main():
     height = 135  # in centimeters

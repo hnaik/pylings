@@ -12,7 +12,6 @@
 # with open("my_file.txt", "w") as f:
 #     f.write("Hello, file!")
 
-# I AM NOT DONE
 
 import os
 
