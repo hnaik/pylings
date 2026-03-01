@@ -1,0 +1,382 @@
+[[exercises]]
+name = "intro1"
+path = "exercises/00_intro/intro1.py"
+hint = """
+This exercise is just about removing the `# I AM NOT DONE` line.
+Read the comments in the file. You don't need to change any code!
+Just delete that one line and save the file.
+"""
+
+[[exercises]]
+name = "intro2"
+path = "exercises/00_intro/intro2.py"
+hint = """
+Same as intro1! Read the code carefully, then remove `# I AM NOT DONE` and save.
+Nothing else needs to change.
+"""
+
+[[exercises]]
+name = "variables1"
+path = "exercises/01_variables/variables1.py"
+hint = """
+Replace ??? with a string. Strings go inside quotes like "this" or 'this'.
+For example: greeting = "Hello, Python!"
+"""
+
+[[exercises]]
+name = "variables2"
+path = "exercises/01_variables/variables2.py"
+hint = """
+You need to give the variable a value. What type of value fits here?
+Try a number (like 25) for someone's age.
+"""
+
+[[exercises]]
+name = "variables3"
+path = "exercises/01_variables/variables3.py"
+hint = """
+Variables can be reassigned! Just write the variable name again and give it a new value.
+Example: score = 100
+Then score = 200  (this changes it!)
+"""
+
+[[exercises]]
+name = "types1"
+path = "exercises/02_types/types1.py"
+hint = """
+Python has different types: int (whole numbers), float (decimals), str (text), bool (True/False).
+Replace ??? with the right value. For a whole number, just write the number: 42
+"""
+
+[[exercises]]
+name = "types2"
+path = "exercises/02_types/types2.py"
+hint = """
+To convert between types, use int(), float(), str(), or bool().
+For example: int("42") turns the text "42" into the number 42.
+"""
+
+[[exercises]]
+name = "types3"
+path = "exercises/02_types/types3.py"
+hint = """
+The type() function tells you what type something is.
+Try using type(my_variable) to see what Python thinks it is.
+"""
+
+[[exercises]]
+name = "functions1"
+path = "exercises/03_functions/functions1.py"
+hint = """
+A function is defined with `def`. It must have a name and parentheses.
+def say_hello():
+    print("Hello!")
+Then call it with: say_hello()
+"""
+
+[[exercises]]
+name = "functions2"
+path = "exercises/03_functions/functions2.py"
+hint = """
+Functions can take parameters (inputs). Put the parameter name inside the parentheses.
+def greet(name):
+    print(f"Hello, {name}!")
+"""
+
+[[exercises]]
+name = "functions3"
+path = "exercises/03_functions/functions3.py"
+hint = """
+Functions can send back a value using `return`.
+def add(a, b):
+    return a + b
+result = add(3, 4)  # result is now 7
+"""
+
+[[exercises]]
+name = "if1"
+path = "exercises/04_conditionals/if1.py"
+hint = """
+An `if` statement checks if something is True.
+if age >= 18:
+    print("You can vote!")
+Don't forget the colon : at the end of the if line.
+"""
+
+[[exercises]]
+name = "if2"
+path = "exercises/04_conditionals/if2.py"
+hint = """
+`else` runs when the `if` condition is False.
+if score >= 60:
+    print("You passed!")
+else:
+    print("Try again!")
+"""
+
+[[exercises]]
+name = "if3"
+path = "exercises/04_conditionals/if3.py"
+hint = """
+`elif` means "else if" - it checks another condition.
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+else:
+    print("C")
+"""
+
+[[exercises]]
+name = "loops1"
+path = "exercises/05_loops/loops1.py"
+hint = """
+A `for` loop repeats code for each item in a sequence.
+for name in ["Alice", "Bob", "Charlie"]:
+    print(name)
+"""
+
+[[exercises]]
+name = "loops2"
+path = "exercises/05_loops/loops2.py"
+hint = """
+range() creates a sequence of numbers.
+for i in range(5):  # goes 0, 1, 2, 3, 4
+    print(i)
+"""
+
+[[exercises]]
+name = "loops3"
+path = "exercises/05_loops/loops3.py"
+hint = """
+A `while` loop keeps going as long as something is True.
+count = 0
+while count < 5:
+    print(count)
+    count = count + 1
+Don't forget to update the variable or you'll loop forever!
+"""
+
+[[exercises]]
+name = "strings1"
+path = "exercises/06_strings/strings1.py"
+hint = """
+You can get a single character from a string using its index (position).
+text = "Hello"
+text[0]  # gives "H" (counting starts at 0!)
+"""
+
+[[exercises]]
+name = "strings2"
+path = "exercises/06_strings/strings2.py"
+hint = """
+f-strings let you put variables inside text.
+name = "Alex"
+message = f"Hello, {name}!"  # gives "Hello, Alex!"
+"""
+
+[[exercises]]
+name = "strings3"
+path = "exercises/06_strings/strings3.py"
+hint = """
+Strings have useful methods:
+.upper() makes it ALL CAPS
+.lower() makes it all lowercase
+.split() breaks it into a list of words
+"""
+
+[[exercises]]
+name = "lists1"
+path = "exercises/07_lists/lists1.py"
+hint = """
+A list holds multiple items in order.
+fruits = ["apple", "banana", "cherry"]
+Get an item: fruits[0]  # "apple"
+"""
+
+[[exercises]]
+name = "lists2"
+path = "exercises/07_lists/lists2.py"
+hint = """
+Lists have useful methods:
+.append(item) adds an item to the end
+len(my_list) tells you how many items there are
+"""
+
+[[exercises]]
+name = "lists3"
+path = "exercises/07_lists/lists3.py"
+hint = """
+You can loop through a list to do something with each item.
+for fruit in fruits:
+    print(fruit)
+"""
+
+[[exercises]]
+name = "dicts1"
+path = "exercises/08_dicts/dicts1.py"
+hint = """
+A dictionary stores key-value pairs.
+person = {"name": "Alice", "age": 25}
+Get a value: person["name"]  # gives "Alice"
+"""
+
+[[exercises]]
+name = "dicts2"
+path = "exercises/08_dicts/dicts2.py"
+hint = """
+You can add new key-value pairs to a dict:
+my_dict["new_key"] = "new_value"
+And get all keys: my_dict.keys()
+"""
+
+[[exercises]]
+name = "dicts3"
+path = "exercises/08_dicts/dicts3.py"
+hint = """
+You can loop through a dictionary using .items():
+for key, value in my_dict.items():
+    print(key, value)
+"""
+
+[[exercises]]
+name = "tuples1"
+path = "exercises/09_tuples_sets/tuples1.py"
+hint = """
+A tuple is like a list, but you can't change it once created.
+Use parentheses: point = (3, 4)
+Access items the same way: point[0]  # gives 3
+"""
+
+[[exercises]]
+name = "sets1"
+path = "exercises/09_tuples_sets/sets1.py"
+hint = """
+A set holds unique items only - no duplicates!
+my_set = {1, 2, 3, 2, 1}  # becomes {1, 2, 3}
+Use set() to convert a list: set([1, 2, 2, 3])
+"""
+
+[[exercises]]
+name = "errors1"
+path = "exercises/10_error_handling/errors1.py"
+hint = """
+Use try/except to catch errors:
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Can't divide by zero!")
+"""
+
+[[exercises]]
+name = "errors2"
+path = "exercises/10_error_handling/errors2.py"
+hint = """
+You can catch the error and use its message:
+try:
+    int("hello")
+except ValueError as e:
+    print(f"Oops! {e}")
+"""
+
+[[exercises]]
+name = "errors3"
+path = "exercises/10_error_handling/errors3.py"
+hint = """
+You can raise your own errors with `raise`:
+if age < 0:
+    raise ValueError("Age can't be negative!")
+"""
+
+[[exercises]]
+name = "modules1"
+path = "exercises/11_modules/modules1.py"
+hint = """
+Import a module to use its functions:
+import math
+print(math.sqrt(16))  # prints 4.0
+"""
+
+[[exercises]]
+name = "modules2"
+path = "exercises/11_modules/modules2.py"
+hint = """
+The random module picks random things:
+import random
+random.randint(1, 10)  # picks a random number between 1 and 10
+random.choice(["a", "b", "c"])  # picks a random item from a list
+"""
+
+[[exercises]]
+name = "classes1"
+path = "exercises/12_classes/classes1.py"
+hint = """
+A class is a blueprint for creating objects.
+class Pet:
+    def __init__(self, name):
+        self.name = name
+my_pet = Pet("Fluffy")
+print(my_pet.name)  # "Fluffy"
+"""
+
+[[exercises]]
+name = "classes2"
+path = "exercises/12_classes/classes2.py"
+hint = """
+Methods are functions that belong to a class.
+class Pet:
+    def __init__(self, name):
+        self.name = name
+    def speak(self):
+        print(f"{self.name} says hello!")
+"""
+
+[[exercises]]
+name = "classes3"
+path = "exercises/12_classes/classes3.py"
+hint = """
+You can add more attributes to a class.
+class Player:
+    def __init__(self, name, score=0):
+        self.name = name
+        self.score = score
+    def add_points(self, points):
+        self.score += points
+"""
+
+[[exercises]]
+name = "comprehensions1"
+path = "exercises/13_list_comprehensions/comprehensions1.py"
+hint = """
+A list comprehension creates a new list in one line.
+numbers = [1, 2, 3, 4, 5]
+doubled = [n * 2 for n in numbers]  # [2, 4, 6, 8, 10]
+"""
+
+[[exercises]]
+name = "comprehensions2"
+path = "exercises/13_list_comprehensions/comprehensions2.py"
+hint = """
+You can add a filter to a list comprehension:
+numbers = [1, 2, 3, 4, 5, 6]
+evens = [n for n in numbers if n % 2 == 0]  # [2, 4, 6]
+"""
+
+[[exercises]]
+name = "files1"
+path = "exercises/14_files/files1.py"
+hint = """
+Use `with open()` to work with files. It closes the file automatically!
+with open("myfile.txt", "w") as f:
+    f.write("Hello, file!")
+"""
+
+[[exercises]]
+name = "files2"
+path = "exercises/14_files/files2.py"
+hint = """
+To read a file:
+with open("myfile.txt", "r") as f:
+    content = f.read()
+print(content)
+"""
