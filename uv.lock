@@ -112,6 +112,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "rich" },
+    { name = "ruff" },
     { name = "watchfiles" },
 ]
 
@@ -124,6 +125,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "rich", specifier = ">=13.0" },
+    { name = "ruff", specifier = ">=0.15.4" },
     { name = "watchfiles", specifier = ">=1.0" },
 ]
 

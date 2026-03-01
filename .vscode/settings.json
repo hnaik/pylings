@@ -12,5 +12,7 @@
     "**/Thumbs.db": true,
     "**/.venv": true,
     "**/__pycache__": true
-  }
+  },
+  "pylint.enabled": false,
+  "ruff.lint.enable": true
 }
