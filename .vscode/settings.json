@@ -3,5 +3,14 @@
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.venv": true,
+    "**/__pycache__": true
   }
 }
