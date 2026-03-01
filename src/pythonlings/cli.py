@@ -81,7 +81,7 @@ def cmd_reset(args):
     if result.returncode == 0:
         print_info(f"🔄 Reset {name} to its original state.")
     else:
-        print_info(f"❌ Could not reset {name}: {result.stderr}")
+        print_info(f"❌ Could not reset {name}. Make sure you have Git installed and the file is tracked in version control.")
 
 def cmd_progress(args):
     exercises = get_exercise_list()

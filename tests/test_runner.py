@@ -40,10 +40,8 @@ def test_failing_exercise(tmp_exercise):
 
 def test_not_done_exercise(tmp_exercise):
     path = tmp_exercise(
-        f"# {SENTINEL.lstrip('# ')}\ndef main():\n    pass\n\nif __name__ == '__main__':\n    main()\n"
+        f"{SENTINEL}\ndef main():\n    pass\n\nif __name__ == '__main__':\n    main()\n"
     )
-    # Write the sentinel properly
-    path.write_text(f"{SENTINEL}\ndef main():\n    pass\n\nif __name__ == '__main__':\n    main()\n")
     result = run_exercise(path)
     assert result.skipped is True
     assert result.passed is False
